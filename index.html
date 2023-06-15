@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pooject</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Playball&family=Ultra&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+</head>
+
+<body id="thegod">
+  <div id="bg">
+    <div id="heading_bg">
+      <div id="heading">
+        Dholakpur Cricket Championship
+      </div>
+      <div id="teams">
+        Kalia v/s Chhota Bheem
+      </div>
+    </div>
+    <div class="dashboard">
+      <span id="bheem_d">
+        Bheem's score:</span>
+      <span id="score1" class="score"> 0
+      </span><span id="kalia_d">
+        Kalia's Score:</span>
+      <span id="score2" class="score">0
+      </span>
+    </div>
+    <aside class="aside_tools">
+      <span>Boardsize:</span>
+      <select id="board_size">
+        <option value="select">
+          Select size of board
+        </option>
+        <option value="10">
+          10*10
+        </option>
+        <option value="9">
+          9*9
+        </option>
+        <option value="8">
+          8*8
+        </option>
+        <option value="7">
+          7*7
+        </option>
+        <option value="6">
+          6*6
+        </option>
+        <option value="5">
+          5*5
+        </option>
+        <option value="4">
+          4*4
+        </option>
+      </select>
+      <br>
+      <br>
+      <span>Difficulty:</span>
+      <select id="level_setter">
+        <option value="select">
+          Select Challenge Level
+        </option>
+        <option value="0">
+          Low
+        </option>
+        <option value="1">
+          Normative
+        </option>
+        <option value="2">
+          High
+        </option>
+      </select>
+      <br>
+      <div style="height: 10px;font-size: 70px;">
+        <button id="start">Start</button>
+        <button id="music">Music</button>
+        <p id="test"></p>
+        <form>
+          <input type="submit" id="newgame" value="RESET">
+        </form>
+      </div>
+    </aside>
+    <table id="board"></table>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section span {
+            position: absolute;
+            bottom: -50px;
+            background: transparent;
+            border-radius: 50%;
+            pointer-events: none;
+            box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+
+
+<body>
+    <section>
+
+    </section>
+    <script type="text/javascript">
+        function animated_bubbles() {
+            const create_obg = document.createElement('span');
+            var siz = Math.random() * 60;
+            create_obg.style.height = size + 'px';
+            create_obg.style.width = size + 'px';
+            create_obg.style.left = Math.random() * innerWidth + 'px';
+            document.querySelector("section").appendChild(create_obg);
+            setTimeout(() => {
+                create_obg.remove()
+            }, 4000);
+            setInterval(animated_bubbles(), 50);
+        }
+    </script>
+</body>
+
+</html>

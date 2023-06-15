@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+}
+
+#board {
+  border-collapse: collapse;
+  background-color: rgb(61, 131, 40);
+  /*background-image: url("ffb57n.jpg");*/
+  border: 1px;
+  position: absolute;
+  top: 47%;
+  left: 35%;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 6px solid rgb(99, 173, 75);
+}
+
+#bg {
+  height: 60px;
+}
+
+#heading_bg {
+  /*background-color: rgba(2, 95, 110,0);*/
+  border: 4px solid #bf3030;
+  background-color: #bf3030;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  display: inline-block;
+  height: 180%;
+  width: 100%;
+  text-align: center;
+
+}
+
+#heading {
+  /* font-family: 'League Script', cursive;*/
+  /*font-family: 'Abril Fatface', cursive;*/
+  /*font-family: 'Anton', sans-serif;*/
+  font-family: 'Playball', cursive;
+  /*font-family: 'Ultra', serif;*/
+  font-size: 300%;
+  font-weight: 900;
+  color: rgb(213, 154, 71);
+}
+
+#teams {
+  font-family: 'Clicker Script', cursive;
+  font-size: 250%;
+  color: rgb(254, 255, 253);
+  font-weight: 900;
+  padding-left: 4.5%;
+}
+
+body {
+  background-size: cover;
+  background-image: url("series_2018_03.jpg");
+}
+
+.dashboard {
+  text-align: center;
+  word-spacing: 100%;
+  font-family: 'Freehand', cursive;
+  font-size: 200%;
+  margin-top: 4%;
+}
+
+#bheem_d,
+#kalia_d {
+  border: 5px solid rgb(107, 88, 60);
+  /*here comes responsiveness*/
+  background-color: rgba(107, 88, 60, 1);
+  clip-path: polygon(1% 0%, 16% 0%, 53% 0%, 73% 0%, 84% 5%, 89% 9%, 93% 14%, 96% 19%, 99% 26%, 99% 34%, 100% 40%, 100% 48%, 100% 56%, 100% 63%, 100% 70%, 100% 75%, 91% 76%, 81% 75%, 72% 76%, 63% 75%, 52% 76%, 39% 75%, 24% 75%, 11% 75%, 3% 75%, 0% 74%);
+  color: rgb(225, 215, 202);
+  padding-bottom: 1%;
+  padding-left: 0.2%;
+
+}
+
+#score1 {
+  margin-right: 33%;
+}
+
+.score {
+  background-color: rgb(111, 61, 25);
+  border: 1px solid rgb(64, 120, 200);
+  border-radius: 25%;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 1%;
+}
+
+#score2 {
+  padding-right: 2%;
+}
+
+.aside_tools {
+  font-family: 'Ultra', serif;
+  font-size: 140%;
+  position: relative;
+  top: 350%;
+  left: 1%;
+  color: rgb(254, 254, 254);
+}
+
+#board_size,
+#level_setter {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 10%;
+  border: 5px solid rgb(107, 88, 60);
+  /*here comes responsiveness*/
+  background-color: rgba(107, 88, 60, 1);
+  color: rgb(225, 215, 202);
+  font-family: 'League Script', cursive;
+  ;
+  font-size: 90%;
+  font-weight: 900;
+  border-top-right-radius: 50%;
+}
+
+#board_size:hover {
+  background-color: rgb(81, 66, 42);
+  cursor: pointer;
+}
+
+#newgame,
+#start {
+  -webkit-appearance: none;
+  padding: 0;
+  height: 400%;
+  position: relative;
+  left: 1%;
+  width: 15%;
+  font-size: 30%;
+  border: 4px solid #bf3030;
+  background-color: #bf3030;
+  color: #fff;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+
+#music {
+  -webkit-appearance: none;
+  padding: 0;
+  height: 400%;
+  position: relative;
+  left: 1%;
+  width: 9%;
+  font-size: 30%;
+  border: 4px solid #306ebf;
+  background-color: #305bbf;
+  color: #fff;
+  border-radius: 25%;
+}
+
+#music:hover {
+  background-color: #244491;
+  cursor: pointer;
+}
+
+#newgame:hover,
+#start:hover {
+  background-color: #902525;
+  cursor: pointer;
+}
